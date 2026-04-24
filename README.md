@@ -1,4 +1,5 @@
-# Bitcoin 4-Hour RSI Backtest
+# Bitcoin 4-Hour RSI Backtest Created with Codex
+
 
 This project backtests a simple long-only Bitcoin RSI strategy using 4-hour BTC-USD data from Yahoo Finance.
 
