@@ -1,0 +1,43 @@
+Bitcoin 4-Hour RSI Backtest Summary
+====================================
+
+Symbol: BTC-USD
+Requested date range: 2017-01-01 to 2026-04-24
+Downloaded first candle: 2017-01-01 00:00:00
+Downloaded last candle: 2026-04-24 16:00:00
+Data note: Yahoo Finance did not provide 4-hour BTC-USD data back to 2017, so older daily yfinance candles were expanded into approximate 4-hour rows, then recent available 4-hour yfinance candles were appended.
+RSI period: 14
+Buy signal: RSI crosses below 30
+Sell signal: RSI crosses above 72
+Starting account balance: $100,000.00
+Risk per trade: 2%
+Tax estimate: 2% of profitable trade gains
+
+Performance
+-----------
+Total trades: 156
+Winning trades: 111
+Losing trades: 45
+Win rate: 71.15%
+Total profit/loss before tax: $13,985.35
+Estimated taxes: $943.33
+Final equity before tax: $113,985.35
+Final equity after tax: $113,042.02
+Total return before tax: 13.99%
+Total return after tax: 13.04%
+Maximum drawdown: -6.46%
+Best trade: $1,445.18
+Worst trade: $-3,083.17
+
+Files Created
+-------------
+trades.csv
+equity_curve.csv
+summary_report.txt
+charts/btc_price_signals.png
+charts/rsi_chart.png
+charts/equity_curve_before_tax.png
+charts/equity_curve_after_tax.png
+charts/drawdown.png
+charts/pl_per_trade.png
+charts/trade_returns_scatter.png
